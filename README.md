@@ -2,8 +2,7 @@
 
     Java 1.8_118
     Maven 3.5
-    IntelliJ IDEA 2017.2.5
-
+    
 **About**
 
     Font Extension library to include fonts for your application.
