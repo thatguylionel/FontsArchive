@@ -6,11 +6,14 @@ The Font Extension library is designed to enhance the application of fonts to Ja
 fonts for the original iReport/JasperReport environments. I suspect that newer versions have this functionality built
 in, however, for historic purposes, I will keep this project available.
 
-## NOTE
+### NOTE: Trueno Font Library Information
 
-This library includes `Times New Roman`, a proprietary font owned by [Monotype](https://www.monotype.com/). Distributing
-Times New Roman with your project, especially for commercial use, typically requires a proper license from the font
-owner. The inclusion of this font in this library is intended for educational purposes only.
+This library incorporates the `Trueno Font` by [KineticPlasma Fonts](https://www.fontspace.com/trueno-font-f22345).
+While this font is open and free to use, it is licensed under
+the [SIL Open Font License (OFL)](https://www.fontspace.com/help#license-17). The inclusion of this font in this library
+is solely for educational purposes. We are not responsible for any commercial use of the font. If you plan to use the
+Trueno Font commercially, please review the licensing documentation or contact a representative from KineticPlasma Fonts
+before proceeding.
 
 ## About
 

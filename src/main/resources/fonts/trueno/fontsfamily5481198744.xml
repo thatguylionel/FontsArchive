@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+
+   <fontFamily name="Trueno">
+       <normal><![CDATA[fonts/trueno/Trueno-75PE.otf]]></normal>
+       <bold><![CDATA[fonts/trueno/TruenoBold-XYE2.otf]]></bold>
+       <italic><![CDATA[fonts/trueno/TruenoLightItalic-OoMo.otf]]></italic>
+       <boldItalic><![CDATA[fonts/trueno/TruenoBoldItalic-g4B3.otf]]></boldItalic>
+       <pdfEmbedded><![CDATA[false]]></pdfEmbedded>
+   </fontFamily>
+
+</fontFamilies>
