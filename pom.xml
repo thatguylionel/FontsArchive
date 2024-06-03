@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tgl</groupId>
-    <artifactId>FontsArchive</artifactId>
+    <artifactId>fontsarchive</artifactId>
     <version>1.0</version>
 
     <name>Font Extension for Jasper Reports, which includes Times New Roman, with the possibility to add on other font libraries</name>

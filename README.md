@@ -1,26 +1,57 @@
-**Tech Stack**
+# Font Extension for Jasper Reports
 
-    Java 1.8_118
-    Maven 3.5
-    
-**About**
+## Overview
 
-    Font Extension library to include fonts for your application.
+The Font Extension library is designed to enhance the application of fonts to Jasper Reports, making it easier to extend
+fonts for the original iReport/JasperReport environments. I suspect that newer versions have this functionality built
+in, however, for historic purposes, I will keep this project available.
 
+## NOTE
 
-**Dependency**
+This library includes `Times New Roman`, a proprietary font owned by [Monotype](https://www.monotype.com/). Distributing
+Times New Roman with your project, especially for commercial use, typically requires a proper license from the font
+owner. The inclusion of this font in this library is intended for educational purposes only.
 
-    *Ensure that the project has been compiled on your local working environment before including the dependency
-    If maven has been setup with your local terminal, the below command can be run within the project path.
-    mvn clean install -X
-    Or alternatively from your IDE
-    
+## About
 
+This library allows you to include additional fonts in your Jasper Reports, making it easier to create professionally
+styled reports.
+
+## Dependency
+
+Before including the dependency, ensure that the project has been compiled in your local working environment. If Maven
+is set up on your local terminal, you can compile the project using the following command within the project path:
+
+```bash
+mvn clean install -X
 ```
+
+Alternatively, you can compile the project from your IDE.
+
+Include the following dependency in your `pom.xml`:
+
+```xml
+
 <dependency>
     <groupId>com.tgl</groupId>
     <artifactId>FontsArchive</artifactId>
     <version>1.0</version>
 </dependency>
- ```
+```
 
+## Getting Started
+
+To get started with using the Font Extension library, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/thatguylionel/fontsarchive.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd fontsarchive
+   ```
+3. **Build the project using Maven:**
+   ```bash
+   mvn clean install
+   ```
